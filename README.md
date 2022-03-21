@@ -44,3 +44,29 @@ Adapun contoh codingnya adalah :
 
 Dan adapun hasil outputannya adalah sebagai berikut :
 ![menambahkan_dokumen_html](img/1.png)
+
+## Mendeklarasikan CSS Internal
+Contoh coding untuk mendeklarasikan CSS internal adalah sebagai berikut :
+```html
+<style>
+        /* CSS Internal*/
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        header {
+            min-height: 90px;
+            border-bottom: 4px solid black;
+        }
+        h1 {
+            font-size: 25px;
+            color: #00b4d8;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        h1 i {
+            color: yellowgreen;
+        }
+    </style>
+```
+Hasil outputannya adalah sebagai berikut :
+![menambahkan_css_internal](img/css_internal.png)
