@@ -110,4 +110,30 @@ nav a:hover{
 CSS selector adalah sebuah pendeklarasian untuk menambahkan gaya pada elemen html seperti selector (p), (h1) dll. Ada juga selector ID yang pendeklarasiannya dalam file CSS yaitu (#) kemudian definisikan properti CSS dalam kurung seperti contoh #nav.
 
 Berikut adalah coding dan hasil outputnya :
-
+```css
+/* ID Selector */
+#berliana{
+    background:cornsilk;
+    border: 1px solid cornsilk;
+    min-height: 100px;
+    padding: 10px;
+}
+#berliana h1{
+    text-align: left;
+    border: 0;
+    color: aquamarine;
+}
+/* Class Selector*/
+.btn{
+    padding: 15px 20px;
+    background: coral;
+    color: aliceblue;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+.btn-primary{
+    background: coral;
+}
+```
+![menambahkan_css_selector](img/css_selector.png)
