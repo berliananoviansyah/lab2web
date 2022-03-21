@@ -45,9 +45,9 @@ Adapun contoh codingnya adalah :
 Dan adapun hasil outputannya adalah sebagai berikut :
 ![menambahkan_dokumen_html](img/1.png)
 
-## Mendeklarasikan CSS Internal
+## 2.Mendeklarasikan CSS Internal
 Contoh coding untuk mendeklarasikan CSS internal adalah sebagai berikut :
-```html
+```css
 <style>
         /* CSS Internal*/
         body {
@@ -70,3 +70,44 @@ Contoh coding untuk mendeklarasikan CSS internal adalah sebagai berikut :
 ```
 Hasil outputannya adalah sebagai berikut :
 ![menambahkan_css_internal](img/css_internal.png)
+
+## 3.Menambahkan Inline CSS
+CSS Inline sendiri adalah CSS yang memiliki prioritas tertinggi jika dideklarasikan secara bersamaan antara internal eksternal dan inline, inline lah yang terpanggil di browser.
+
+Adapun codingnya adalah :
+```html
+<p style="text-align: center; color: brown;">Kami sedang belajar HTML dan CSS Dasar, pada mata kuliah 
+        <b>Pemrograman Web</b> di <i>Universitas Pelita Bangsa.</i> 
+        Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML dan CSS.</p>
+```
+
+Dengan hasil output sebagai berikut :
+![menambahkan_css_inline](img/css_inline.png)
+
+## 4). Membuat CSS Eksternal
+CSS Eksternal adalah CSS yang dimana filenya terpisah dengan HTML melalui link penempatannya. CSS Eksternal sangan direkomendasikan oleh para programmer website developer dalam membuat gaya pada CSS.
+
+Dengan hasil coding :
+```css
+nav{
+    background: orange;
+    color: aliceblue;
+    padding: 15px;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+nav .active,
+nav a:hover{
+    background-color: black;
+    border-radius: 4px;
+}
+```
+
+## 5). Menambahkan CSS Selector
+CSS selector adalah sebuah pendeklarasian untuk menambahkan gaya pada elemen html seperti selector (p), (h1) dll. Ada juga selector ID yang pendeklarasiannya dalam file CSS yaitu (#) kemudian definisikan properti CSS dalam kurung seperti contoh #nav.
+
+Berikut adalah coding dan hasil outputnya :
+
