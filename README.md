@@ -41,3 +41,6 @@ Adapun contoh codingnya adalah :
 </body>
 </html>
 ```
+
+Dan adapun hasil outputannya adalah sebagai berikut :
+![menambahkan_dokumen_html](img/1.png)
