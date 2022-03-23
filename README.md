@@ -137,3 +137,29 @@ Berikut adalah coding dan hasil outputnya :
 }
 ```
 ![menambahkan_css_selector](img/css_selector.png)
+
+
+# PERTANYAAN DAN JAWABAN
+
+**1). Lakukan eksperimen dengan mengubah nama dan menambah propert nilai pada kode CSS dengan mengacu pada CSS sheet yang diberikan pada file terpisah dari modul ini!**
+
+**Jawab =** Pada contoh ditambahkan **border-radius:4px** untuk merapihkan dan juga menambahkan warna (h1) menggunakan selector ID untuk mengubah warna padding dan text align.
+![menambahkan_gambar_soal1](img/soal_1.png)
+
+**2). Apa perbedaan pendeklarasian CSS elemen {h1} dengan {#intro h1}? Berikan penjelasannya!**
+
+**Jawab =** {h1} digunakan untuk mengubah semua elemen {h1} yang dimiliki pada CSS, sednagkan {#introh1} hanya dapat mengubah deklarasi {#introh1} saja, karena memiliki ID unik.
+
+**3). Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penejelasan dan contohnya!**
+
+**Jawab =** Ketika dideklarasikan secara bersamaan, yang akan tampil pada browser adalah yang inline karena mempunyai prioritas tinggi dibanding internal dan eksternal. 
+
+**4). Pada sebuah elemen HTML terdapat ID dan CLass, apabila masing-masing selector tersebut terdapat deklarasi CSS, mamka deklarasi manakah yang akan ditampilkan pada browser? berikan penjelasan dan contohnya!**
+
+**Jawab =** 
+```css
+(<p id="paragraf-1" class="text-paragraf">)
+```
+
+yang terpanggil adalah ID karena ID bersifat unik, berbeda dengan class bisa digunakan lebih dari 1.
+
